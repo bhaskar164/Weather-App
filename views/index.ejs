@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+		  <title>Weather App</title>
+		  <link rel="stylesheet" type="text/css"  href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300&display=swap" >
+		  <link rel="stylesheet" type="text/css" href="/stylesheets/app.css" >
+	      <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+		   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <script src="https://kit.fontawesome.com/de8fb8e49d.js" crossorigin="anonymous"></script>
+</head>
+	
+   <body>
+	   
+		   
+	   <div class="top">
+			   <h1 class="animate__animated animate__bounce">
+					<i class="fas fa-sun"></i>
+					WEATHER APP!
+				   <i class="fas fa-sun"></i>
+				</h1>
+		   	
+		   <img style="display:block;width: 470px;height: 200px;opacity: 0.5;" src="/Images/WeatherApp2.jpg">
+	   
+				<div class="container frm">
+				<form action="/submit" method="POST">
+					 <div class="form-group">
+						<label for="cityName">Enter a city name</label>
+					   <input name="cityName" type="text" class="form-control"  placeholder="cityName">
+					</div>
+					<button type="submit" class="btn btn-dark animate__animated animate__swing">Submit</button>
+			 	</form>
+	  		 </div> 
+	   </div>
+	  
+	 
+   </body>
+	
+</html>

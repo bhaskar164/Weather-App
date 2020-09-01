@@ -1,0 +1,32 @@
+body{
+	text-align:center;
+	/* height:100%; */
+}
+h1{
+	text-align:center;
+	margin-bottom:3px;
+}
+
+.mycard{
+	border: 1px solid black;
+	border-radius: 10px;
+	padding:0px;
+}
+.top{
+	padding-top: 3px;
+    padding: 2rem 1rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+    margin: 10px auto;
+    background: linear-gradient(45deg, #007bff, #ffc107);
+    border-radius: .3rem;
+    width: 500px;
+	
+}
+
+h1{text-align:center;}
+
+
+.frm{
+	padding-top: 30px;
+}
